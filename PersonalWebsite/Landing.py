@@ -20,7 +20,7 @@ def show_rounded_image(image_path, width=None, border_radius=20):
         unsafe_allow_html=True
     )
 
-show_rounded_image("Images/profile.jpg", width=200, border_radius=100)
+show_rounded_image("PersonalWebsite/Images/profile.jpg", width=200, border_radius=100)
 
 st.write("")
 st.subheader("Harini Penumuchu")
