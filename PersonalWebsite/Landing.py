@@ -24,8 +24,8 @@ show_rounded_image("PersonalWebsite/Images/profile.jpg", width=200, border_radiu
 
 st.write("")
 st.subheader("Harini Penumuchu")
-st.write("hi, this is my about me.")
-
+st.write("Hi! I’m Harini, a student at Georgia Tech. My interests broadly span hardware design, computer architecture and machine learning. Recently, I’ve worked on projects in computational physics and applications for visualizing large-scale datasets. Growing up in the San Francisco Bay Area taught me to always be excited about technology, so please don’t hesitate to reach out with any exciting ideas or opportunities!")
+st.write("hpenumuchu3 [at] gatech [dot] edu")
 def links_section():
     st.sidebar.header("💌 Links")
     linkedin_link = f'<a href="{info.my_linkedin_url}"><img src="{info.linkedin_image_url}" alt="LinkedIn" width = "40" height = "40"></a>'
